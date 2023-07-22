@@ -15,9 +15,23 @@
     </style>
 </head>
 <body>
-    <header class="bg-yellow-50 px-5 py-11 md:px-12 md:py-14 lg:px-36 lg:py-32">
-        <div class="flex flex-col gap-3 lg:gap-5 md:flex-row justify-between items-center">
-            <div class="space-y-4 text-center">
+    <header class="bg-yellow-50 px-5 py-11 md:px-12 md:py-4 lg:px-36 lg:py-10">
+        <nav class="flex flex-col md:flex-row justify-between items-center ">
+            <div class="w-8/12 lg:w-3/12">
+                <img src="./icons/logo.png" alt="">
+            </div>
+
+            <div>
+                <ul class="flex flex-col text-center py-5 md:pr-8 md:text-left md:flex-row text-base font-bold text-gray-800">
+                    <li class="px-4"><a href="#">Home</a></li>
+                    <li class="px-4"><a href="#">Product</a></li>
+                    <li class="px-4"><a href="#">About Us</a></li>
+                    <li class="px-4"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="flex flex-col gap-3 md:gap-5 md:flex-row justify-between items-center">
+            <div class="space-y-4 text-center md:text-left">
                 <h1 class="text-4xl md:text-5xl lg:text-7xl text-gray-800 uppercase font-roboto font-semibold md:font-extrabold">
                     <span class="text-orange-400">Be the Penguins</span> 
                     <br> of Winter
@@ -157,9 +171,9 @@
         </section>
 
         <section class="py-14">
-            <div class="flex flex-col-reverse md:flex-row lg:flex-row justify-between items-center px-8 md:space-x-24 lg:space-x-24">
-                <div class="py-8">
-                    <div class="flex flex-col text-center items-center space-x-4 shadow-lg rounded-2xl">
+            <div class="flex flex-col-reverse lg:flex-row justify-between items-center px-8 md:py-10 lg:space-x-24">
+                <div class="py-8 md:flex-col">
+                    <div class="flex flex-col text-center md:text-left items-center space-x-4 shadow-lg rounded-2xl">
                         <div class="w-20 pt-10 md:pl-5">
                             <img src="./icons/house.png" alt="">
                         </div>
@@ -170,7 +184,7 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col items-center text-center space-x-4 shadow-lg rounded-2xl">
+                    <div class="flex flex-col items-center text-center md:text-left space-x-4 shadow-lg rounded-2xl">
                         <div class="w-20 pt-10 md:pl-5">
                             <img src="./icons/box.png" alt="">
                         </div>
@@ -181,7 +195,7 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col items-center text-center space-x-4 shadow-xl rounded-2xl">
+                    <div class="flex flex-col items-center text-center md:text-left space-x-4 shadow-xl rounded-2xl">
                         <div class="w-20 pt-10 md:pl-5">
                             <img src="./icons/question.png" alt="">
                         </div>
